@@ -1,4 +1,5 @@
 This repository was forked from [Pigi](https://github.com/karlfloersch/pigi), which was published under the MIT license.
+
 **TODO** Finish README, add function definitions & use guide
 
 ## Sparse Merkle Trees
