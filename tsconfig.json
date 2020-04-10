@@ -15,5 +15,5 @@
     ],
     "outDir": "./dist"
   },
-  "include": ["src/*.ts", "src/app/db/*.ts"]
+  "include": ["index.ts", "src/*.ts", "src/**/*.ts"]
 }
