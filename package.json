@@ -1,8 +1,8 @@
 {
   "name": "sparse-merkle-tree",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "TypeScript and Solidity implementation of Sparse Merkle Trees, taken from the Pigi project by Plasma Group.",
+  "main": "dist/index.js",
   "scripts": {
     "test:merkle": "mocha --require ts-node/register 'test/merkle/merkle.ts' --timeout 5000",
     "test:merkle:sol": "mocha --require ts-node/register 'test/contracts/RollupMerkleUtils.ts' --timeout 5000",
