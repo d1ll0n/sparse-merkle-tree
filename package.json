@@ -6,7 +6,8 @@
   "scripts": {
     "test:merkle": "mocha --require ts-node/register 'test/merkle/merkle.ts' --timeout 5000",
     "test:merkle:sol": "mocha --require ts-node/register 'test/contracts/RollupMerkleUtils.ts' --timeout 5000",
-    "build": "waffle waffle-config.json"
+    "build:sol": "waffle waffle-config.json",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
