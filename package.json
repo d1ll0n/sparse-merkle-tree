@@ -3,15 +3,20 @@
   "version": "1.0.0",
   "description": "TypeScript and Solidity implementation of Sparse Merkle Trees, taken from the Pigi project by Plasma Group.",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test:merkle": "mocha --require ts-node/register 'test/merkle/merkle.ts' --timeout 5000",
     "test:merkle:sol": "mocha --require ts-node/register 'test/contracts/RollupMerkleUtils.ts' --timeout 5000",
     "build:sol": "waffle waffle-config.json",
     "build": "tsc"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "homepage": "https://github.com/d1ll0n/sparse-merkle-tree",
+  "keywords": ["merkle tree", "sparse merkle tree", "solidity"],
+  "author": "Plasma Group",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/d1ll0n/sparse-merkle-tree/issues"
+  },
   "dependencies": {
     "abstract-leveldown": "^6.0.3",
     "async-lock": "^1.2.2",
