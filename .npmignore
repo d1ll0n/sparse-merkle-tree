@@ -1,0 +1,5 @@
+contracts/
+src/
+node_modules/
+build/
+test/
